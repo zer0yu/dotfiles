@@ -2,7 +2,7 @@
 
 This repository contains my personal SketchyBar, Yabai and Skhd configurations.
 
-![Screenshot2022-11-25](/Users/zero/Desktop/MyGithub/dotfile/README.assets/Screenshot2022-11-25.png)
+![Screenshot2022-11-25](./README.assets/Screenshot2022-11-25.png)
 
 ## 0x01 Installation
 
@@ -68,7 +68,7 @@ git clone https://github.com/zer0yu/dotfiles.git "${HOME}"/.config/dotfiles
 ln -s "${HOME}/.config/dotfiles/yabai/yabairc" "${HOME}/.yabairc"
 ln -s "${HOME}/.config/dotfiles/skhd/skhdrc" "${HOME}/.skhdrc"
 ln -s "${HOME}/.config/dotfiles/sketchybar" "${HOME}/.config/sketchybar"
-
+# 需要手动修改 .yabairc 和 .skhdrc 文件中的 .sh 脚本路径
 
 # Start Services
 brew services start skhd
