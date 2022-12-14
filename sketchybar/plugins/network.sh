@@ -3,7 +3,7 @@
 # Trigger the brew_udpate event when brew update or upgrade is run from cmdline
 # e.g. via function in .zshrc
 
-UPDOWN=$(ifstat -i "en0" -b 0.1 1 | tail -n1)
+UPDOWN=$(ifstat -i "utun3" -b 0.1 1 | tail -n1)
 DOWN=$(echo $UPDOWN | awk "{ print \$1 }" | cut -f1 -d ".")
 UP=$(echo $UPDOWN | awk "{ print \$2 }" | cut -f1 -d ".")
 

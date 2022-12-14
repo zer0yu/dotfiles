@@ -48,10 +48,11 @@ windows_on_spaces () {
     do
       icon_strip=" "
       apps=$(yabai -m query --windows --space $space | jq -r ".[].app")
-      for app in $apps
-      do
-        icon_strip+=" $($HOME/.config/sketchybar/plugins/icon_map.sh "$app")"
-      done
+      if [ "$apps" != "" ]; then
+        while IFS= read -r app; do
+          icon_strip+=" $($HOME/.config/sketchybar/plugins/icon_map.sh "$app")"
+        done <<< "$apps"
+      fi
       args+=(--set space.$space label="$icon_strip" label.drawing=on)
     done
   done <<< "$CURRENT_SPACES"
@@ -61,7 +62,7 @@ windows_on_spaces () {
 
 mouse_clicked() {
   yabai -m window --toggle float
-  update
+  window_state
 }
 
 case "$SENDER" in

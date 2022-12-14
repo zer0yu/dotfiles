@@ -176,6 +176,11 @@ yabai -m rule --add app="^StrongVPN$" manage=off
 yabai -m rule --add app="^向日葵远程控制$" manage=off
 yabai -m rule --add app="^Thiro$" manage=off
 yabai -m rule --add app="^专注清单$" manage=off
+yabai -m rule --add app="^(LuLu|Vimac|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$" manage=off
+yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
+yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
+yabai -m rule --add label="Select file to save to" app="^Inkscape$" title="Select file to save to" manage=off
 # yabai -m rule --add app="^Burp Suite Professional$" manage=off
 # yabai -m rule --add app="^Google Chrome$" manage=off
 # yabai -m rule --add app="^Logi Options$" manage=off
