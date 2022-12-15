@@ -123,7 +123,7 @@ yabai -m config external_bar               all:37:0     \
 
 # float system preferences. Most of these just diable Yabai form resizing them.
 # Do not manage some apps which are not resizable
-yabai -m rule --add app="^(LuLu|Vimac|Calculator|VLC|System Preferences|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice)$" manage=off
+yabai -m rule --add app="^(LuLu|Vimac|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$" manage=off
 yabai -m rule --add app="^系统偏好设置$" sticky=on layer=above manage=off
 yabai -m rule --add app="^System Preferences$" sticky=on layer=above manage=off
 yabai -m rule --add app="^系统资讯$" sticky=on layer=above manage=off
@@ -176,10 +176,12 @@ yabai -m rule --add app="^StrongVPN$" manage=off
 yabai -m rule --add app="^向日葵远程控制$" manage=off
 yabai -m rule --add app="^Thiro$" manage=off
 yabai -m rule --add app="^专注清单$" manage=off
-yabai -m rule --add app="^(LuLu|Vimac|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|LibreOffice|App Store|Steam|Alfred|Activity Monitor)$" manage=off
+yabai -m rule --add app="^Creative Convert$" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add label="访达" app="^访达$" title="(拷贝|连接|移动|简介|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
+yabai -m rule --add label="关于本机" app="系统信息" title="关于本机" manage=off
 yabai -m rule --add label="Select file to save to" app="^Inkscape$" title="Select file to save to" manage=off
 # yabai -m rule --add app="^Burp Suite Professional$" manage=off
 # yabai -m rule --add app="^Google Chrome$" manage=off
