@@ -2,12 +2,12 @@
 
 This repository contains my personal SketchyBar, Yabai and Skhd configurations.
 
-![Screenshot2022-11-25](./README.assets/Screenshot2022-11-25.png)
+![Screenshot2023-01-01](./README.assets/Screenshot2023-01-01 下午9.39.13.png)
 
 ## 0x01 Installation
 
 ```bash
-# --- install yabai, skhd, jq and all
+# Installing yabai, skhd, jq and alacritty
 brew tap homebrew/cask-fonts
 brew install koekeishiya/formulae/yabai
 brew install jq
@@ -15,6 +15,11 @@ brew install koekeishiya/formulae/skhd
 brew install gh #(gh auth login for notifications)
 brew install --cask sf-symbols
 brew install --cask font-hack-nerd-font
+brew install --cask alacritty
+
+# setting tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 
 # Installing Fonts
 git clone git@github.com:shaunsingh/SFMono-Nerd-Font-Ligaturized.git /tmp/SFMono_Nerd_Font
@@ -68,6 +73,10 @@ git clone https://github.com/zer0yu/dotfiles.git "${HOME}"/.config/dotfiles
 ln -s "${HOME}/.config/dotfiles/yabai/yabairc" "${HOME}/.yabairc"
 ln -s "${HOME}/.config/dotfiles/skhd/skhdrc" "${HOME}/.skhdrc"
 ln -s "${HOME}/.config/dotfiles/sketchybar" "${HOME}/.config/sketchybar"
+ln -s "${HOME}/.config/dotfiles/alacritty/alacritty.yml" "${HOME}/.config/alacritty/alacritty.yml"
+ln -s "${HOME}/.config/dotfiles/alacritty/catppuccin/catppuccin-macchiato.yml" ${HOME}/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+ln -s "${HOME}/.config/dotfiles/tmux/.tmux.conf" "${HOME}/.tmux.conf"
+
 # 需要手动修改 .yabairc 和 .skhdrc 文件中的 .sh 脚本路径
 
 # Start Services
@@ -114,11 +123,7 @@ function suyabai () {
 
 
 
-
-
-
-
-## 0x02 Keyboard Shortcuts
+## 0x02 Keyboard Shortcuts For yabai
 ### Reload / restart the yabai launch agent
 
 <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
@@ -243,9 +248,54 @@ function suyabai () {
 
 
 
+## 0x03 Keyboard Shortcuts For Open APP
+
+
+
+### Open APP
+
+| Action         | Key Combination                                 |
+| -------------- | ----------------------------------------------- |
+| Open alacritty | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>t</kbd> |
+| Open iTerm2    | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>t</kbd> |
+|                |                                                 |
+|                |                                                 |
+
+
+
+### Set the shortcut to open APP
+
+1. open Automator(自动操作)
+
+2. 选择 “选取文稿类型”,在创建界面选择”快速操作”
+
+3. 创建“开启应用程序”
+
+4. 设置快捷键
+
+   “系统偏好设置” => "键盘" => "服务" => "通用" => 选中添加的程序， 设置快捷键。
+
+Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
+
+
+
+## 0x04 Keyboard Shortcuts For Tmux + Alacritty
+
+
+
+
+
+
+
+
+
 ## 0x03 Reference
 
 https://github.com/FelixKratz/dotfiles
 
 https://github.com/z20240/yabai
+
+https://github.com/qingshan/dotfiles/blob/main/.tmux.conf
+
+https://github.com/damianveltkamp/dotfiles/blob/master/tmux/.tmux.conf
 
