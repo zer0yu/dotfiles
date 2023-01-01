@@ -175,6 +175,7 @@ yabai -m rule --add app="^Microsoft Remote Desktop Beta$" manage=off
 yabai -m rule --add app="^Tencent Lemon Lite$" manage=off
 yabai -m rule --add app="^StrongVPN$" manage=off
 yabai -m rule --add app="^向日葵远程控制$" manage=off
+yabai -m rule --add app="^钉钉$" manage=off
 yabai -m rule --add app="^Thiro$" manage=off
 yabai -m rule --add app="^专注清单$" manage=off
 yabai -m rule --add app="^Creative Convert$" manage=off
