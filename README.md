@@ -2,7 +2,7 @@
 
 This repository contains my personal SketchyBar, Yabai and Skhd configurations.
 
-![Screenshot2023-01-01](./README.assets/Screenshot2023-01-01 下午9.39.13.png)
+![Screenshot2023-01-01](./README.assets/Screenshot2023-01-01.png)
 
 ## 0x01 Installation
 
