@@ -256,7 +256,7 @@ function suyabai () {
 
 | Action         | Key Combination                                 |
 | -------------- | ----------------------------------------------- |
-| Open alacritty | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>t</kbd> |
+| Open alacritty | <kbd>alt</kbd>+ <kbd>cmd</kbd> + <kbd>t</kbd>   |
 | Open iTerm2    | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>t</kbd> |
 |                |                                                 |
 |                |                                                 |
@@ -281,9 +281,33 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 ## 0x04 Keyboard Shortcuts For Tmux + Alacritty
 
+| Action               | Key Combination                |
+| -------------------- | ------------------------------ |
+| New Tab              | <kbd>cmd</kbd> + <kbd>t</kbd>  |
+| Close Tab            | <kbd>ctrl</kbd> + <kbd>d</kbd> |
+| New vertical panel   | <kbd>cmd</kbd> + <kbd>d</kbd>  |
+| Close vertical panel | <kbd>cmd</kbd> + <kbd>w</kbd>  |
 
 
 
+## 0x05 Keyboard Shortcuts For Arc Browser
+
+| Action                               | Key Combination                                     |
+| ------------------------------------ | --------------------------------------------------- |
+| 打开URL或者搜索内容                  | <kbd>cmd</kbd> + <kbd>t</kbd>                       |
+| 根据网页结构截图                     | <kbd>shift</kbd> + <kbd>2</kbd>                     |
+| 同一页面右侧分割打开某个URL          | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>=</kbd>   |
+| 关闭分割页面                         | <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>-</kbd>   |
+| 同一页面右侧分割打开点击的URL        | <kbd>alt</kbd> + 鼠标点击                           |
+| 打开上次关闭的页面                   | <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>t</kbd>    |
+| 查看历史记录                         | <kbd>cmd</kbd> + <kbd>y</kbd>                       |
+| 关闭所有窗口                         | <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>w</kbd>    |
+| 关闭当前页面                         | <kbd>cmd</kbd> + <kbd>w</kbd>                       |
+| 切换 workspace                       | <kbd>ctrl</kbd> + <kbd>数字</kbd>                   |
+| 打开 arc 设置（注意不是 chrome）     | <kbd>cmd</kbd> + <kbd>,</kbd>                       |
+| 复制当前页面的 URL（仅URL）          | <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>c</kbd>    |
+| 复制当前页面的 URL（markdown 格式）  | <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>c</kbd> |
+| 把临时打开的小窗口加入到主浏览器里面 | <kbd>cmd</kbd> + <kbd>o</kbd>                       |
 
 
 
