@@ -155,6 +155,8 @@ yabai -m rule --add app="^MyCard$" manage=off
 yabai -m rule --add app="^TradingView$" manage=off
 yabai -m rule --add app="^Vivaldi$" manage=off
 yabai -m rule --add app="^微信$" manage=off
+yabai -m rule --add app="^信息$" manage=off
+yabai -m rule --add app="^邮件$" manage=off
 yabai -m rule --add app="^GoLand$" manage=off
 yabai -m rule --add app="^PhpStorm$" manage=off
 yabai -m rule --add app="^IntelliJ IDEA$" manage=off
