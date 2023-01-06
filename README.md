@@ -308,6 +308,8 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 | 复制当前页面的 URL（仅URL）          | <kbd>shift</kbd> + <kbd>cmd</kbd> + <kbd>c</kbd>    |
 | 复制当前页面的 URL（markdown 格式）  | <kbd>shift</kbd> + <kbd>option</kbd> + <kbd>c</kbd> |
 | 把临时打开的小窗口加入到主浏览器里面 | <kbd>cmd</kbd> + <kbd>o</kbd>                       |
+| Go back                              | <kbd>cmd</kbd> + <kbd>[</kbd>                       |
+| Go forward                           | <kbd>cmd</kbd> + <kbd>]</kbd>                       |
 
 
 
