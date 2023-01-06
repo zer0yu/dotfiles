@@ -310,6 +310,7 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 | 把临时打开的小窗口加入到主浏览器里面 | <kbd>cmd</kbd> + <kbd>o</kbd>                       |
 | Go back                              | <kbd>cmd</kbd> + <kbd>[</kbd>                       |
 | Go forward                           | <kbd>cmd</kbd> + <kbd>]</kbd>                       |
+| 显示or隐藏侧边栏                     | <kbd>cmd</kbd> + <kbd>s</kbd>                       |
 
 
 
