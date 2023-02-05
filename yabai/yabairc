@@ -7,11 +7,11 @@ launchctl unload -F /System/Library/LaunchAgents/com.apple.WindowManager.plist >
 # YABAI STUFF
 sudo yabai --load-sa
 yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
-yabai -m signal --add event=window_focused action="sketchybar --trigger window_focus"
+# yabai -m signal --add event=window_focused action="sketchybar --trigger window_focus"
 yabai -m signal --add event=display_added action="sleep 1 && $HOME/Desktop/MyGithub/dotfiles/yabai/create_spaces.sh"
 yabai -m signal --add event=display_removed action="sleep 1 && $HOME/Desktop/MyGithub/dotfiles/yabai/create_spaces.sh"
-yabai -m signal --add event=window_created action="sketchybar --trigger windows_on_spaces"
-yabai -m signal --add event=window_destroyed action="sketchybar --trigger windows_on_spaces"
+# yabai -m signal --add event=window_created action="sketchybar --trigger windows_on_spaces"
+# yabai -m signal --add event=window_destroyed action="sketchybar --trigger windows_on_spaces"
 
 $HOME/Desktop/MyGithub/dotfiles/yabai/create_spaces.sh
 
@@ -41,7 +41,7 @@ $HOME/Desktop/MyGithub/dotfiles/yabai/create_spaces.sh
 
 ######
 
-yabai -m config external_bar               all:37:0     \
+yabai -m config external_bar               all:0:0     \
                 window_border              on           \
                 mouse_follows_focus        off          \
                 focus_follows_mouse        off          \
@@ -67,11 +67,11 @@ yabai -m config external_bar               all:37:0     \
                 mouse_action2              resize       \
                 mouse_drop_action          swap         \
                                                         \
-                top_padding                20           \
-                bottom_padding             10           \
-                left_padding               10           \
-                right_padding              10           \
-                window_gap                 8
+                top_padding                7           \
+                bottom_padding             7           \
+                left_padding               7           \
+                right_padding              7           \
+                window_gap                 7
 
 
 # float system preferences. Most of these just diable Yabai form resizing them.
@@ -131,8 +131,13 @@ yabai -m rule --add app="^StrongVPN$" manage=off
 yabai -m rule --add app="^向日葵远程控制$" manage=off
 yabai -m rule --add app="^钉钉$" manage=off
 yabai -m rule --add app="^Thiro$" manage=off
+yabai -m rule --add app="^Cubox$" manage=off
+yabai -m rule --add app="^Keybase$" manage=off
+yabai -m rule --add app="^Keyboard Maestro$" manage=off
 yabai -m rule --add app="^专注清单$" manage=off
 yabai -m rule --add app="^Creative Convert$" manage=off
+yabai -m rule --add app="^系统设置$" manage=off
+yabai -m rule --add app="^关于本机$" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="访达" app="^访达$" title="(拷贝|连接|移动|简介|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
