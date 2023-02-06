@@ -311,6 +311,8 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 | Go back                              | <kbd>cmd</kbd> + <kbd>[</kbd>                       |
 | Go forward                           | <kbd>cmd</kbd> + <kbd>]</kbd>                       |
 | 显示or隐藏侧边栏                     | <kbd>cmd</kbd> + <kbd>s</kbd>                       |
+| DeepL插件翻译                        | <kbd>alt</kbd> + <kbd>z</kbd>                       |
+| Immersive Translate 插件全文翻译     | <kbd>alt</kbd> + <kbd>w</kbd>                       |
 
 
 

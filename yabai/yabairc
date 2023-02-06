@@ -97,7 +97,7 @@ yabai -m rule --add app="^Path Finder$" manage=off
 yabai -m rule --add app="^TeamViewer$" sticky=off layer=above manage=off
 yabai -m rule --add app="^AppCleaner$" sticky=off layer=above manage=off
 yabai -m rule --add app="^iStat Menus$" sticky=off layer=above manage=off
-yabai -m rule --add app="^iStat Menus$" manage=off
+yabai -m rule --add app="^App Cleaner & Uninstaller$" manage=off
 yabai -m rule --add app="^Flux$" manage=off
 yabai -m rule --add app="^Time Out$" manage=off
 yabai -m rule --add app="^perl_client_app$" manage=off
