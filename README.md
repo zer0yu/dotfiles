@@ -123,7 +123,13 @@ function suyabai () {
 
 
 
-## 0x02 Keyboard Shortcuts For yabai
+
+## 0x02 Keyboard Shortcuts
+
+
+
+### 0x01 yabai(skhd)
+
 ### Reload / restart the yabai launch agent
 
 <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
@@ -138,52 +144,52 @@ function suyabai () {
 
 ### Move Windows
 
-|    Action   |                            Key Combination                            |
-|-------------|-----------------------------------------------------------------------|
-| Move left   | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>   |
-| Move right  | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd>  |
-| Move up     | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd>     |
-| Move down   | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd>   |
+| Action     | Key Combination                                              |
+| ---------- | ------------------------------------------------------------ |
+| Move left  | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd> |
+| Move right | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd> |
+| Move up    | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd> |
+| Move down  | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd> |
 
 
 
 ### Focus Windows
 
-|    Action   |                   Key Combination                   |
-|-------------|-----------------------------------------------------|
-| Focus left  | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>   |
-| Focus right | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd>  |
-| Focus up    | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd>     |
-| Focus down  | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd>   |
+| Action      | Key Combination                                    |
+| ----------- | -------------------------------------------------- |
+| Focus left  | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>  |
+| Focus right | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd> |
+| Focus up    | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd>    |
+| Focus down  | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd>  |
 
 
 
 ### Resize Windows
 
-|    Action    |                            Key Combination                              |
-|--------------|-------------------------------------------------------------------------|
-| Resize left  | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>home</kbd>     |
-| Resize right | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>end</kbd>      |
-| Resize up    | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>pageUp</kbd>   |
+| Action       | Key Combination                                              |
+| ------------ | ------------------------------------------------------------ |
+| Resize left  | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>home</kbd> |
+| Resize right | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>end</kbd> |
+| Resize up    | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>pageUp</kbd> |
 | Resize down  | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>pageDown</kbd> |
 
 
 
 ### Stack Windows
 
-|    Action    |                            Key Combination                            |
-|--------------|-----------------------------------------------------------------------|
-| Stack left   | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>  |
-| Stack right  | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd> |
+| Action      | Key Combination                                              |
+| ----------- | ------------------------------------------------------------ |
+| Stack left  | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd> |
+| Stack right | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd> |
 
 
 
 ### Focus Windows (stack mode)
 
-|    Action   |                            Key Combination                           |
-|-------------|----------------------------------------------------------------------|
-| Focus up    | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd>   |
-| Focus down  | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd> |
+| Action     | Key Combination                                              |
+| ---------- | ------------------------------------------------------------ |
+| Focus up   | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd> |
+| Focus down | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>down</kbd> |
 
 
 
@@ -195,8 +201,8 @@ function suyabai () {
 
 ### Move Windows (floating mode)
 
-|            Action             |                     Key Combination                   |
-|-------------------------------|-------------------------------------------------------|
+| Action                        | Key Combination                                       |
+| ----------------------------- | ----------------------------------------------------- |
 | Move left                     | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>     |
 | Move right                    | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd>    |
 | full screen                   | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>up</kbd>       |
@@ -210,30 +216,30 @@ function suyabai () {
 
 ### Send Window to Spaces
 
-|       Action        |                      Key Combination                    |
-|---------------------|---------------------------------------------------------|
-| Send to prev space  | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>      |
-| Send to next space  | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd>     |
-| Send to space (1-9) | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>1 - 9</kbd>     |
+| Action              | Key Combination                                     |
+| ------------------- | --------------------------------------------------- |
+| Send to prev space  | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>left</kbd>  |
+| Send to next space  | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>right</kbd> |
+| Send to space (1-9) | <kbd>ctrl</kbd> + <kbd>cmd</kbd> + <kbd>1 - 9</kbd> |
 
 
 
 ### Send Window to Monitors (Displays)
 
-|         Action       |                      Key Combination                    |
-|----------------------|---------------------------------------------------------|
-| Send to prev monitor | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>left</kbd>      |
-| Send to next monitor | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>right</kbd>     |
+| Action               | Key Combination                                     |
+| -------------------- | --------------------------------------------------- |
+| Send to prev monitor | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>left</kbd>  |
+| Send to next monitor | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>right</kbd> |
 
 
 
 ### Focus Monitors (Displays)
 
-|         Action       |                Key Combination                  |
-|----------------------|-------------------------------------------------|
-| Focus monitor 1      | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>1</kbd> |
-| Focus monitor 2      | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>2</kbd> |
-| Focus monitor 3      | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>3</kbd> |
+| Action          | Key Combination                                 |
+| --------------- | ----------------------------------------------- |
+| Focus monitor 1 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>1</kbd> |
+| Focus monitor 2 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>2</kbd> |
+| Focus monitor 3 | <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>3</kbd> |
 
 
 
@@ -246,10 +252,6 @@ function suyabai () {
 | Window Equalize size        | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>\|</kbd>              |
 | Enable / Disable gaps       | <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>g</kbd>               |
 | Float / Unfloat window      | <kbd>cmd</kbd> + <kbd>spcae</kbd>                            |
-
-
-
-## 0x03 Keyboard Shortcuts For Open APP
 
 
 
@@ -280,7 +282,19 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 
 
-## 0x04 Keyboard Shortcuts For Tmux + Alacritty
+或者使用 keyboard maestro 来自定义一些快捷操作
+
+
+
+### 0x03  keyboard maestro
+
+| Action       | Key Combination                                              |
+| ------------ | ------------------------------------------------------------ |
+| 清除格式粘贴 | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>v</kbd> |
+
+
+
+### 0x04 Tmux + Alacritty
 
 | Action               | Key Combination                |
 | -------------------- | ------------------------------ |
@@ -291,7 +305,7 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 
 
-## 0x05 Keyboard Shortcuts For Arc Browser
+### 0x05 Arc Browser
 
 | Action                               | Key Combination                                     |
 | ------------------------------------ | --------------------------------------------------- |
@@ -317,9 +331,18 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 
 
+### 0x06 For Raycast
+
+| Action                  | Key Combination               |
+| ----------------------- | ----------------------------- |
+| 打开Floating Notes      | <kbd>alt</kbd> + <kbd>.</kbd> |
+| 显示/隐藏Floating Notes | <kbd>alt</kbd> + <kbd>,</kbd> |
+
+ 
 
 
-## 0x03 Reference
+
+## 0x07 Reference
 
 https://github.com/FelixKratz/dotfiles
 
