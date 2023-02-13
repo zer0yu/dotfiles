@@ -138,6 +138,7 @@ yabai -m rule --add app="^专注清单$" manage=off
 yabai -m rule --add app="^Creative Convert$" manage=off
 yabai -m rule --add app="^系统设置$" manage=off
 yabai -m rule --add app="^关于本机$" manage=off
+yabai -m rule --add app="^提醒事项$" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="访达" app="^访达$" title="(拷贝|连接|移动|简介|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off

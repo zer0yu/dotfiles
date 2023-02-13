@@ -163,7 +163,7 @@ ctrl + alt - t : "${HOME}"/Desktop/MyGithub/dotfiles/scripts/open_iterm2.sh
 ## show/hide desktop (顯示/隱藏桌面)
 cmd - f3: sh ~/Desktop/MyGithub/dotfiles/scripts/taggleShowHideDesktop.sh
 
-## Quickly restart the yabai launch agent (快速重啟 yabai & skhd)
+## Quickly restart the yabai launch agent (快速重启 yabai & skhd)
 ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai" && launchctl kickstart -k "gui/${UID}/homebrew.mxcl.skhd"
 
 ## Quickly start the yabai launch agent
@@ -201,7 +201,7 @@ alt + cmd - r         : yabai -m space --rotate 270
 shift + alt + cmd - r : yabai -m space --rotate 90
 
 ## float / Unfloat window (float 視窗)
-ctrl + alt + cmd - space : yabai -m window --toggle float ;  yabai -m window --grid 12:12:1:1:9:9
+cmd - space : yabai -m window --toggle float ;  yabai -m window --grid 12:12:1:1:9:9
 
 ## stack window
 # Note that this only works when the active window does *not* already belong to a stack
