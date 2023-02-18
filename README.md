@@ -76,6 +76,7 @@ ln -s "${HOME}/.config/dotfiles/sketchybar" "${HOME}/.config/sketchybar"
 ln -s "${HOME}/.config/dotfiles/alacritty/alacritty.yml" "${HOME}/.config/alacritty/alacritty.yml"
 ln -s "${HOME}/.config/dotfiles/alacritty/catppuccin/catppuccin-macchiato.yml" ${HOME}/.config/alacritty/catppuccin/catppuccin-macchiato.yml
 ln -s "${HOME}/.config/dotfiles/tmux/.tmux.conf" "${HOME}/.tmux.conf"
+ln -s "${HOME}/.config/dotfiles/tmux/sessions/" "${HOME}/.tmux/"
 
 # 需要手动修改 .yabairc 和 .skhdrc 文件中的 .sh 脚本路径
 
@@ -296,12 +297,69 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 ### 0x04 Tmux + Alacritty
 
-| Action               | Key Combination                |
-| -------------------- | ------------------------------ |
-| New Tab              | <kbd>cmd</kbd> + <kbd>t</kbd>  |
-| Close Tab            | <kbd>ctrl</kbd> + <kbd>d</kbd> |
-| New vertical panel   | <kbd>cmd</kbd> + <kbd>d</kbd>  |
-| Close vertical panel | <kbd>cmd</kbd> + <kbd>w</kbd>  |
+| Action                                     | Key Combination                                              |
+| ------------------------------------------ | ------------------------------------------------------------ |
+| **基本操作**                               |                                                              |
+| New Tab                                    | <kbd>cmd</kbd> + <kbd>t</kbd>                                |
+| Close Tab                                  | <kbd>ctrl</kbd> + <kbd>d</kbd>                               |
+| New vertical panel                         | <kbd>cmd</kbd> + <kbd>d</kbd>                                |
+| Close vertical panel (关闭窗格)            | <kbd>cmd</kbd> + <kbd>w</kbd>                                |
+| 水平分割窗格                               | <kbd>cmd</kbd> + <kbd>Return</kbd>                           |
+| 访问左边的窗格                             | <kbd>cmd</kbd> + <kbd>h</kbd>                                |
+| 访问左边的窗格                             | <kbd>cmd</kbd> + <kbd>Left</kbd>                             |
+| 访问上面的窗格                             | <kbd>cmd</kbd> + <kbd>j</kbd>                                |
+| 访问上面的窗格                             | <kbd>cmd</kbd> + <kbd>Up</kbd>                               |
+| 问下面的窗格                               | <kbd>cmd</kbd> + <kbd>k</kbd>                                |
+| 问下面的窗格                               | <kbd>cmd</kbd> + <kbd>Down</kbd>                             |
+| 访问右边的窗格                             | <kbd>cmd</kbd> + <kbd>l</kbd>                                |
+| 访问右边的窗格                             | <kbd>cmd</kbd> + <kbd>Right</kbd>                            |
+| 按数字切换选项卡                           | <kbd>cmd</kbd> + <kbd>1</kbd> 到 <kbd>cmd</kbd> + <kbd>9</kbd> |
+| 切换到最近一次访问的选项卡                 | <kbd>cmd</kbd> + <kbd>b</kbd>                                |
+| 切换到上一个选项卡                         | <kbd>cmd</kbd> + <kbd>[</kbd>                                |
+| 切换到下一个选项卡                         | <kbd>cmd</kbd> + <kbd>]</kbd>                                |
+| 切换窗口                                   | <kbd>cmd</kbd> + <kbd>`</kbd>                                |
+| **布局操作**                               |                                                              |
+| 向左边的窗格推进                           | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>h</kbd>            |
+| 向左边的窗格推进                           | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>Left</kbd>         |
+| 向上面的窗格推进                           | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>j</kbd>            |
+| 向上面的窗格推进                           | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>Up</kbd>           |
+| 向下面的窗推进                             | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>k</kbd>            |
+| 向下面的窗推进                             | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>Down</kbd>         |
+| 向右边的窗格推进                           | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>l</kbd>            |
+| 向右边的窗格推进                           | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>Right</kbd>        |
+| 将窗格移动到指定的选项卡中                 | <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>1</kbd> 到 <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>9</kbd> |
+| 缩放当前窗格                               | <kbd>cmd</kbd> + <kbd>z</kbd>                                |
+| 使用预设置的五种布局重新调整窗格           | <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>z</kbd>             |
+| 修改选项卡名称                             | <kbd>cmd</kbd> + <kbd>,</kbd>                                |
+| 输入 tmux 命令                             | <kbd>cmd</kbd> + <kbd>i</kbd>                                |
+| 调整更大的字体                             | <kbd>cmd</kbd> + <kbd>+</kbd>                                |
+| 调整更小的字体                             | <kbd>cmd</kbd> + <kbd>-</kbd>                                |
+| 恢复默认大小的字体                         | <kbd>cmd</kbd> + <kbd>0</kbd>                                |
+| **复制模式**                               |                                                              |
+| 进入 Vi 复制模式，从上往下的方向查找关键词 | <kbd>cmd</kbd> + <kbd>f</kbd>                                |
+| 进入 Vi 复制模式，从下往上的方向查找关键词 | <kbd>cmd</kbd> + <kbd>shift</kbd> +  <kbd>f</kbd>            |
+
+补充：
+
+v 按字选择
+
+V 按行选择
+
+Ctrl + v 按块状选择
+
+Esc 取消选择
+
+A 复制选择的文本追加到剪贴板，并退出 Vi 复制模式。
+
+D 复制当前行到行尾的文本到剪贴板，并退出 Vi 复制模式。
+
+y 复制选择的文本到剪贴板，并退出 Vi 复制模式。
+
+Y 复制选择的文本到剪贴板，并保持 Vi 复制模式。
+
+q 退出 Vi 复制模式
+
+ref: https://juejin.cn/post/7152747783152697375
 
 
 
