@@ -77,6 +77,7 @@ ln -s "${HOME}/.config/dotfiles/alacritty/alacritty.yml" "${HOME}/.config/alacri
 ln -s "${HOME}/.config/dotfiles/alacritty/catppuccin/catppuccin-macchiato.yml" ${HOME}/.config/alacritty/catppuccin/catppuccin-macchiato.yml
 ln -s "${HOME}/.config/dotfiles/tmux/.tmux.conf" "${HOME}/.tmux.conf"
 ln -s "${HOME}/.config/dotfiles/tmux/sessions/" "${HOME}/.tmux/"
+ln -s "${HOME}/.config/dotfiles/tmux/themes/" "${HOME}/.tmux/"
 
 # 需要手动修改 .yabairc 和 .skhdrc 文件中的 .sh 脚本路径
 
@@ -127,23 +128,21 @@ function suyabai () {
 
 ## 0x02 Keyboard Shortcuts
 
-
-
 ### 0x01 yabai(skhd)
 
-### Reload / restart the yabai launch agent
+#### Reload / restart the yabai launch agent
 
 <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>r</kbd>
 
-### Show / hide items on desktop
+#### Show / hide items on desktop
 
 <kbd>cmd</kbd> + <kbd>f3</kbd>
 
-### Toggle full screen / up-full screen
+#### Toggle full screen / up-full screen
 
 <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>space</kbd>
 
-### Move Windows
+#### Move Windows
 
 | Action     | Key Combination                                              |
 | ---------- | ------------------------------------------------------------ |
@@ -154,7 +153,7 @@ function suyabai () {
 
 
 
-### Focus Windows
+#### Focus Windows
 
 | Action      | Key Combination                                    |
 | ----------- | -------------------------------------------------- |
@@ -165,7 +164,7 @@ function suyabai () {
 
 
 
-### Resize Windows
+#### Resize Windows
 
 | Action       | Key Combination                                              |
 | ------------ | ------------------------------------------------------------ |
@@ -176,7 +175,7 @@ function suyabai () {
 
 
 
-### Stack Windows
+#### Stack Windows
 
 | Action      | Key Combination                                              |
 | ----------- | ------------------------------------------------------------ |
@@ -185,7 +184,7 @@ function suyabai () {
 
 
 
-### Focus Windows (stack mode)
+#### Focus Windows (stack mode)
 
 | Action     | Key Combination                                              |
 | ---------- | ------------------------------------------------------------ |
@@ -194,13 +193,13 @@ function suyabai () {
 
 
 
-### Toggle float / Un-float mode window
+#### Toggle float / Un-float mode window
 
 <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>cmd</kbd> + <kbd>space</kbd>
 
 
 
-### Move Windows (floating mode)
+#### Move Windows (floating mode)
 
 | Action                        | Key Combination                                       |
 | ----------------------------- | ----------------------------------------------------- |
@@ -215,7 +214,7 @@ function suyabai () {
 
 
 
-### Send Window to Spaces
+#### Send Window to Spaces
 
 | Action              | Key Combination                                     |
 | ------------------- | --------------------------------------------------- |
@@ -225,7 +224,7 @@ function suyabai () {
 
 
 
-### Send Window to Monitors (Displays)
+#### Send Window to Monitors (Displays)
 
 | Action               | Key Combination                                     |
 | -------------------- | --------------------------------------------------- |
@@ -234,7 +233,7 @@ function suyabai () {
 
 
 
-### Focus Monitors (Displays)
+#### Focus Monitors (Displays)
 
 | Action          | Key Combination                                 |
 | --------------- | ----------------------------------------------- |
@@ -244,7 +243,7 @@ function suyabai () {
 
 
 
-### Misc
+#### Misc
 
 | Action                      | Key Combination                                              |
 | --------------------------- | ------------------------------------------------------------ |
@@ -256,7 +255,7 @@ function suyabai () {
 
 
 
-### Open APP
+#### Open APP
 
 | Action         | Key Combination                                 |
 | -------------- | ----------------------------------------------- |
@@ -267,7 +266,7 @@ function suyabai () {
 
 
 
-### Set the shortcut to open APP
+#### Set the shortcut to open APP
 
 1. open Automator(自动操作)
 
@@ -410,3 +409,4 @@ https://github.com/qingshan/dotfiles/blob/main/.tmux.conf
 
 https://github.com/damianveltkamp/dotfiles/blob/master/tmux/.tmux.conf
 
+https://github.com/nicknisi/dotfiles
