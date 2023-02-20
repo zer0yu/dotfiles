@@ -201,7 +201,8 @@ alt + cmd - r         : yabai -m space --rotate 270
 shift + alt + cmd - r : yabai -m space --rotate 90
 
 ## float / Unfloat window (float 視窗)
-cmd - space : yabai -m window --toggle float ;  yabai -m window --grid 12:12:1:1:9:9
+## https://github.com/koekeishiya/yabai/wiki/Commands#window-commands
+cmd - space : yabai -m window --toggle float ;  yabai -m window --grid 12:12:3:2:5:8
 
 ## stack window
 # Note that this only works when the active window does *not* already belong to a stack
