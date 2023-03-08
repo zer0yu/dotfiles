@@ -410,3 +410,5 @@ https://github.com/qingshan/dotfiles/blob/main/.tmux.conf
 https://github.com/damianveltkamp/dotfiles/blob/master/tmux/.tmux.conf
 
 https://github.com/nicknisi/dotfiles
+
+https://github.com/ayamir/nvimdots
