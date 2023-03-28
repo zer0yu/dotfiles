@@ -397,6 +397,19 @@ ref: https://juejin.cn/post/7152747783152697375
 
  
 
+### 0x07 For Zotero
+
+
+
+| Action                           | Key Combination                  |
+| -------------------------------- | -------------------------------- |
+| 打开快捷命令窗口 [zotero-style]  | <kbd> shift</kbd> + <kbd>P</kbd> |
+| 标记已读文献 [Zotero IF Pro Max] | <kbd>ctrl</kbd> + <kbd>1</kbd>   |
+
+ 
+
+
+
 
 
 ## 0x07 Reference
