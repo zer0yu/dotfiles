@@ -142,6 +142,10 @@ yabai -m rule --add app="^提醒事项$" manage=off
 yabai -m rule --add app="^小程序$" manage=off
 yabai -m rule --add app="^LocalSend$" manage=off
 yabai -m rule --add app="^简悦 · 同步助手$" manage=off
+yabai -m rule --add app="^欧陆词典$" manage=off
+yabai -m rule --add app="^Kap$" manage=off
+yabai -m rule --add app="^Maipo$" manage=off
+yabai -m rule --add app="^数码测色计$" manage=off
 yabai -m rule --add label="Finder" app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
 yabai -m rule --add label="访达" app="^访达$" title="(拷贝|连接|移动|简介|Pref)" manage=off
 yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off

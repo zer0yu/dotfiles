@@ -399,8 +399,6 @@ ref: https://juejin.cn/post/7152747783152697375
 
 ### 0x07 For Zotero
 
-
-
 | Action                           | Key Combination                  |
 | -------------------------------- | -------------------------------- |
 | 打开快捷命令窗口 [zotero-style]  | <kbd> shift</kbd> + <kbd>P</kbd> |
@@ -408,7 +406,14 @@ ref: https://juejin.cn/post/7152747783152697375
 
  
 
+### 0x08 For Obsidian
 
+| Action       | Key Combination                                   |
+| ------------ | ------------------------------------------------- |
+| 插入双向链接 | <kbd>cmd</kbd> + <kbd> shift</kbd> + <kbd>K</kbd> |
+|              |                                                   |
+
+ 
 
 
 
