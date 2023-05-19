@@ -128,7 +128,7 @@ function suyabai () {
 
 ## 0x02 Keyboard Shortcuts
 
-### 0x01 yabai(skhd)
+### 0x21 yabai(skhd)
 
 #### Reload / restart the yabai launch agent
 
@@ -286,7 +286,7 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 
 
-### 0x03  keyboard maestro
+### 0x23  keyboard maestro
 
 | Action       | Key Combination                                              |
 | ------------ | ------------------------------------------------------------ |
@@ -294,7 +294,7 @@ Ref: https://blog.csdn.net/zhanglong_4444/article/details/105172109
 
 
 
-### 0x04 Tmux + Alacritty
+### 0x24 Tmux + Alacritty
 
 | Action                                     | Key Combination                                              |
 | ------------------------------------------ | ------------------------------------------------------------ |
@@ -362,7 +362,7 @@ ref: https://juejin.cn/post/7152747783152697375
 
 
 
-### 0x05 Arc Browser
+### 0x25 Arc Browser
 
 | Action                               | Key Combination                                     |
 | ------------------------------------ | --------------------------------------------------- |
@@ -388,7 +388,7 @@ ref: https://juejin.cn/post/7152747783152697375
 
 
 
-### 0x06 For Raycast
+### 0x26 For Raycast
 
 | Action                  | Key Combination               |
 | ----------------------- | ----------------------------- |
@@ -397,7 +397,7 @@ ref: https://juejin.cn/post/7152747783152697375
 
  
 
-### 0x07 For Zotero
+### 0x27 For Zotero
 
 | Action                           | Key Combination                  |
 | -------------------------------- | -------------------------------- |
@@ -406,18 +406,27 @@ ref: https://juejin.cn/post/7152747783152697375
 
  
 
-### 0x08 For Obsidian
+### 0x28 For Obsidian
 
 | Action       | Key Combination                                   |
 | ------------ | ------------------------------------------------- |
 | 插入双向链接 | <kbd>cmd</kbd> + <kbd> shift</kbd> + <kbd>K</kbd> |
 |              |                                                   |
 
- 
+
+
+### 0x29 For Notion
+
+| Action       | Key Combination               |
+| ------------ | ----------------------------- |
+| 转换行内代码 | <kbd>cmd</kbd> + <kbd>E</kbd> |
+|              |                               |
+
+### 
 
 
 
-## 0x07 Reference
+## 0x03 Reference
 
 https://github.com/FelixKratz/dotfiles
 
